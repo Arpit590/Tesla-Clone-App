@@ -1,0 +1,79 @@
+.homepage{
+    background: url("https://www.hdcarwallpapers.com/walls/vorsteiner_tesla_model_3_volta_2019_4k-HD.jpg") no-repeat center center fixed;
+    -webkit-backdrop-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+}
+
+.homepage__info{
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+}
+
+.homepage__text{
+    text-align: center;
+    flex: 1;
+    margin-left: 110px;
+}
+
+.homepage__text>h1{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.homepage__text>h4{
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.homepage__text>h4>span{
+    padding-bottom: 4px;
+    padding-top: 15px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+}
+.homepage__text>h4>span:hover{
+    border-bottom-width: 2px;
+    color: white;
+}
+
+.homepage__actions{
+    margin-top: 400px;
+    display: flex;
+    gap:20px;
+}
+
+.homepage__actions>button{
+    cursor: pointer;
+    border: none;
+    width: 260px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    outline: none;
+}
+
+.homepage__buttonPrimary{
+    background-color:black;
+    color: white;
+    opacity: 0.9;
+}
+
+.homepage__buttonSecondary{
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+}
